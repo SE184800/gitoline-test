@@ -56,17 +56,16 @@ nav li {
   color: #fff; /* white text */
   cursor: pointer; /* make the cursor a pointer on hover */
   font-size: 18px; /* set the font size to 18px */
+  padding: 10px 20px; /* add padding to the li element */
+  border-radius: 10px; /* add border radius to the li element */
 }
+
 nav li:hover {
   background-color: #ffff00; 
-  padding: 10px; 
-  border-radius: 10px; 
 }
 
 nav li.active {
   background-color: #ffff00; 
-  padding: 10px;
-  border-radius: 10px;
 }
 .Container {
   display: flex;
